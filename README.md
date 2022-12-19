@@ -23,17 +23,17 @@ The relationship between features is as follows.
 
 To improve model performance, compute permutation importance for feature selection.
 
-![Untitled](ReadMe%20md%2059ae4d4c8f24482bb9982fdfc4732ba5/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/115680658/208420916-3b064d43-5f08-4351-a70e-778043f16cd6.png)
 
 Result of leaving only 6 top features
 
-![Untitled](ReadMe%20md%2059ae4d4c8f24482bb9982fdfc4732ba5/Untitled%201.png)
+[<img width="929" alt="top6features" src="https://user-images.githubusercontent.com/115680658/208422501-6d3c9704-c230-436e-b1f5-472b004bd585.png">](https://github.com/clairew99/E1I4_MachinLearning/issues/2#issue-1502834703)
 
 However, there was no significant difference in the model learning results.
 
-![Untitled](ReadMe%20md%2059ae4d4c8f24482bb9982fdfc4732ba5/Untitled%202.png)
+[<img width="372" alt="tracc" src="https://user-images.githubusercontent.com/115680658/208422702-8e4c46e0-3c95-438d-9b3f-4fc2e9fe7b31.png">](https://github.com/clairew99/E1I4_MachinLearning/issues/3#issue-1502836586)
 
-![Untitled](ReadMe%20md%2059ae4d4c8f24482bb9982fdfc4732ba5/Untitled%203.png)
+[![Untitled](ReadMe%20md%2059ae4d4c8f24482bb9982fdfc4732ba5/Untitled%203.png)](https://github.com/clairew99/E1I4_MachinLearning/issues/4#issue-1502837142)
 
 Finally, we tested the applicability of the model to real-world data. We used wine information data and consumer ratings provided by [the sites](https://www.wine21.com/main.html). The real world data used for testing is as follows.
 
