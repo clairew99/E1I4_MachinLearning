@@ -22,14 +22,13 @@ The relationship between features is as follows.
 
 To improve model performance, compute permutation importance for feature selection.
 
-![Untitled](ReadMe%20md%2059ae4d4c8f24482bb9982fdfc4732ba5/Untitled.png)
-
 Result of leaving only 6 top features
 
 <img width="929" alt="top6features" src="https://user-images.githubusercontent.com/115680658/208422501-6d3c9704-c230-436e-b1f5-472b004bd585.png">
 
 
 However, there was no significant difference in the model learning results.
+
 <img width="372" alt="training acc after" src="https://user-images.githubusercontent.com/29935149/208432816-33228f1d-98d2-4998-9a85-7a4c2d10f1e5.png">
 <img width="359" alt="testing acc after" src="https://user-images.githubusercontent.com/29935149/208432810-54722431-95f5-4a7f-a6ed-bf5b8d5ac99d.png">
 
