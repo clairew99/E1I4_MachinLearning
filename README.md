@@ -2,6 +2,7 @@
 
 Our team performed wine quality classification using randomforest regressor.
 
+
 First, We got the data of redwine and whitewine.
 
 ![1.png](ReadMe%20md%2059ae4d4c8f24482bb9982fdfc4732ba5/1.png)
