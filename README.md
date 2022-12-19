@@ -1,6 +1,6 @@
-# E1I4_MachinLearning
+# E1I4_MachineLearning
 
-Our team performed wine quality classification using randomforest regressor.
+Our team performed wine quality classification using randomforest regressor.<br>
 
 
 First, We got the data of redwine and whitewine.
