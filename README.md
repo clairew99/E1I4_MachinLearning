@@ -14,9 +14,8 @@ Next, we used matplot library to check the distribution of quality and the corre
 
 Thereafter, the data was separated into training set and testing set, and learning was conducted using the RandomForestRegressor model.
 
-![4.png](ReadMe%20md%2059ae4d4c8f24482bb9982fdfc4732ba5/4.png)
-
-![5.png](ReadMe%20md%2059ae4d4c8f24482bb9982fdfc4732ba5/5.png)
+<img width="372" alt="tracc" src="https://user-images.githubusercontent.com/115680658/208422702-8e4c46e0-3c95-438d-9b3f-4fc2e9fe7b31.png">
+<img width="359" alt="teacc" src="https://user-images.githubusercontent.com/115680658/208422750-9b08fd61-bfc5-43ff-ac0a-3f9ce486ece6.png">
 
 The relationship between features is as follows.
 
