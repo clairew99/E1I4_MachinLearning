@@ -39,11 +39,11 @@ However, there was no significant difference in the model learning results.
 
 Finally, we tested the applicability of the model to real-world data. We used wine information data and consumer ratings provided by [the sites](https://www.wine21.com/main.html). The real world data used for testing is as follows.
 
-![Untitled](ReadMe%20md%2059ae4d4c8f24482bb9982fdfc4732ba5/Untitled%204.png)
+![real-world data](https://user-images.githubusercontent.com/29935149/208426604-a2db50da-9271-4cd4-bcc5-5ef8f4dddfd5.PNG)
 
 You can see the distribution of consumer ratings.
 
-![Untitled](ReadMe%20md%2059ae4d4c8f24482bb9982fdfc4732ba5/Untitled%205.png)
+![consumer_score](https://user-images.githubusercontent.com/29935149/208426912-0d9a1153-4de4-44e1-bbc5-0fdbae6c22fb.png)
 
 Put the real world data above into a model to predict scores. score_df is a dataFrame where predicted consumer scores of 10 real-world data are stored.
 
@@ -59,4 +59,4 @@ for i in range (0, 10) :
 
 You can compare the actual consumer ratings with the distribution of ratings predicted by the model.
 
-![Untitled](ReadMe%20md%2059ae4d4c8f24482bb9982fdfc4732ba5/Untitled%206.png)
+![model_predict score](https://user-images.githubusercontent.com/29935149/208426930-d4226b2f-172c-4f0e-ab17-9605a00580db.png)
