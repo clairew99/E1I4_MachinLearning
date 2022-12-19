@@ -1,8 +1,6 @@
 # E1I4_MachinLearning
 Ewha Woman's University 2022-2 Machine Learning Team Project
 
-# ReadMe.md
-
 Our team performed wine quality classification using randomforest regressor.
 
 First, We got the data of redwine and whitewine.
