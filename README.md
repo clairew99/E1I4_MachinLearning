@@ -13,13 +13,12 @@ Next, we used matplot library to check the distribution of quality and the corre
 ![heatmap](https://user-images.githubusercontent.com/115680658/208427086-1e20cbb6-ed75-4d5e-ba11-e66caf7852df.png)
 
 Thereafter, the data was separated into training set and testing set, and learning was conducted using the RandomForestRegressor model.
-
-<img width="372" alt="tracc" src="https://user-images.githubusercontent.com/115680658/208422702-8e4c46e0-3c95-438d-9b3f-4fc2e9fe7b31.png">
-<img width="359" alt="teacc" src="https://user-images.githubusercontent.com/115680658/208422750-9b08fd61-bfc5-43ff-ac0a-3f9ce486ece6.png">
+![training acc before](https://user-images.githubusercontent.com/29935149/208432819-ea32df60-7c45-4155-be87-23cf1a1e0553.png)
+![testing acc before](https://user-images.githubusercontent.com/29935149/208432813-a8c903c9-b162-4f5d-99b2-2c10537479d6.png)
 
 The relationship between features is as follows.
 
-![6.png](ReadMe%20md%2059ae4d4c8f24482bb9982fdfc4732ba5/6.png)
+![dendrogram heatmap](https://user-images.githubusercontent.com/115680658/208427123-562b34a6-8351-4a9a-997a-80cbfaed1415.png)
 
 To improve model performance, compute permutation importance for feature selection.
 
@@ -27,13 +26,12 @@ To improve model performance, compute permutation importance for feature selecti
 
 Result of leaving only 6 top features
 
-![Untitled](ReadMe%20md%2059ae4d4c8f24482bb9982fdfc4732ba5/Untitled%201.png)
+<img width="929" alt="top6features" src="https://user-images.githubusercontent.com/115680658/208422501-6d3c9704-c230-436e-b1f5-472b004bd585.png">
+
 
 However, there was no significant difference in the model learning results.
-
-![Untitled](ReadMe%20md%2059ae4d4c8f24482bb9982fdfc4732ba5/Untitled%202.png)
-
-![Untitled](ReadMe%20md%2059ae4d4c8f24482bb9982fdfc4732ba5/Untitled%203.png)
+<img width="372" alt="training acc after" src="https://user-images.githubusercontent.com/29935149/208432816-33228f1d-98d2-4998-9a85-7a4c2d10f1e5.png">
+<img width="359" alt="testing acc after" src="https://user-images.githubusercontent.com/29935149/208432810-54722431-95f5-4a7f-a6ed-bf5b8d5ac99d.png">
 
 Finally, we tested the applicability of the model to real-world data. We used wine information data and consumer ratings provided by [the sites](https://www.wine21.com/main.html). The real world data used for testing is as follows.
 
