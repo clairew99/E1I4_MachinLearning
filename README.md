@@ -35,7 +35,8 @@ However, there was no significant difference in the model learning results.
 <img width="372" alt="training acc after" src="https://user-images.githubusercontent.com/29935149/208432816-33228f1d-98d2-4998-9a85-7a4c2d10f1e5.png">
 <img width="359" alt="testing acc after" src="https://user-images.githubusercontent.com/29935149/208432810-54722431-95f5-4a7f-a6ed-bf5b8d5ac99d.png">
 
-#
+
+
 Finally, we tested the applicability of the model to real-world data. We used wine information data and consumer ratings provided by [the sites](https://www.wine21.com/main.html). The real world data used for testing is as follows.
 
 ![real-world data](https://user-images.githubusercontent.com/29935149/208426604-a2db50da-9271-4cd4-bcc5-5ef8f4dddfd5.PNG)
