@@ -22,6 +22,9 @@ The relationship between features is as follows.
 
 To improve model performance, compute permutation importance for feature selection.
 
+![Untitled](https://user-images.githubusercontent.com/115680658/208420916-3b064d43-5f08-4351-a70e-778043f16cd6.png)
+
+
 Result of leaving only 6 top features
 
 <img width="929" alt="top6features" src="https://user-images.githubusercontent.com/115680658/208422501-6d3c9704-c230-436e-b1f5-472b004bd585.png">
