@@ -8,9 +8,9 @@ First, We got the data of redwine and whitewine.
 
 Next, we used matplot library to check the distribution of quality and the correlation between quality and other variables in an graph.
 
-![2.png](ReadMe%20md%2059ae4d4c8f24482bb9982fdfc4732ba5/2.png)
+![qualitydistribution](https://user-images.githubusercontent.com/115680658/208427046-c28e9d90-34a8-485c-b930-5629387cd808.png)
 
-![3.png](ReadMe%20md%2059ae4d4c8f24482bb9982fdfc4732ba5/3.png)
+![heatmap](https://user-images.githubusercontent.com/115680658/208427086-1e20cbb6-ed75-4d5e-ba11-e66caf7852df.png)
 
 Thereafter, the data was separated into training set and testing set, and learning was conducted using the RandomForestRegressor model.
 
